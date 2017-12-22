@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="gng_tb1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="gng_tb1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="356000001fs"></ZoomEndTime>
+      <Cursor1Time time="153000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="91"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/gng_tb1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/awgn" type="array">
+      <obj_property name="ElementShortName">awgn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">awgn[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/pointer" type="array">
+      <obj_property name="ElementShortName">pointer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pointer[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/lzd_go/zero_pos" type="array">
+      <obj_property name="ElementShortName">zero_pos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">zero_pos[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/sgn" type="logic">
+      <obj_property name="ElementShortName">sgn</obj_property>
+      <obj_property name="ObjectShortName">sgn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/poly_in" type="array">
+      <obj_property name="ElementShortName">poly_in[14:0]</obj_property>
+      <obj_property name="ObjectShortName">poly_in[14:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/coef1" type="array">
+      <obj_property name="ElementShortName">coef1[17:0]</obj_property>
+      <obj_property name="ObjectShortName">coef1[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/coef2" type="array">
+      <obj_property name="ElementShortName">coef2[17:0]</obj_property>
+      <obj_property name="ObjectShortName">coef2[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/coef3" type="array">
+      <obj_property name="ElementShortName">coef3[17:0]</obj_property>
+      <obj_property name="ObjectShortName">coef3[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/index1" type="array">
+      <obj_property name="ElementShortName">index1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">index1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/offset2" type="array">
+      <obj_property name="ElementShortName">offset2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">offset2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/index0" type="array">
+      <obj_property name="ElementShortName">index0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">index0[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/poly_square" type="array">
+      <obj_property name="ElementShortName">poly_square[24:0]</obj_property>
+      <obj_property name="ObjectShortName">poly_square[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/poly_in3" type="array">
+      <obj_property name="ElementShortName">poly_in3[24:0]</obj_property>
+      <obj_property name="ObjectShortName">poly_in3[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/poly_in4" type="array">
+      <obj_property name="ElementShortName">poly_in4[24:0]</obj_property>
+      <obj_property name="ObjectShortName">poly_in4[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/coef3_dly1" type="array">
+      <obj_property name="ElementShortName">coef3_dly1[24:0]</obj_property>
+      <obj_property name="ObjectShortName">coef3_dly1[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/poly_data1" type="array">
+      <obj_property name="ElementShortName">poly_data1[24:0]</obj_property>
+      <obj_property name="ObjectShortName">poly_data1[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/poly_data2" type="array">
+      <obj_property name="ElementShortName">poly_data2[24:0]</obj_property>
+      <obj_property name="ObjectShortName">poly_data2[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/final" type="array">
+      <obj_property name="ElementShortName">final[24:0]</obj_property>
+      <obj_property name="ObjectShortName">final[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/sgn4" type="logic">
+      <obj_property name="ElementShortName">sgn4</obj_property>
+      <obj_property name="ObjectShortName">sgn4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gng_tb1/try_this/awgn_out" type="array">
+      <obj_property name="ElementShortName">awgn_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">awgn_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
